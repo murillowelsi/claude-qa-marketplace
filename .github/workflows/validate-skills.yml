@@ -1,0 +1,29 @@
+name: Validate Skills
+
+on:
+  pull_request:
+    paths:
+      - '**/skills/**'
+      - '.claude-plugin/marketplace.json'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Make scripts executable
+        run: chmod +x scripts/*.sh
+
+      - name: Validate changed skills
+        run: |
+          FAILED=0
+          for skill_md in $(git diff --name-only origin/main...HEAD | grep 'skills/.*/SKILL.md'); do
+            SKILL_DIR=$(dirname "$skill_md")
+            echo "=== Validating $SKILL_DIR ==="
+            ./scripts/validate-skill.sh "$SKILL_DIR" || FAILED=1
+          done
+          exit $FAILED
+
+      - name: Validate all skills (full sweep)
+        run: ./scripts/validate-all.sh

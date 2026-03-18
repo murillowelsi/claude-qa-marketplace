@@ -1,0 +1,17 @@
+{
+  "name": "qa-plugins",
+  "owner": {
+    "name": "QA Engineering",
+    "email": "qa@example.com"
+  },
+  "plugins": [
+    {
+      "name": "qa-toolkit",
+      "source": "./qa-toolkit",
+      "version": "0.1.0",
+      "description": "QA toolkit: risk assessment, test design, bug analysis, and other QA engineering skills.",
+      "category": "quality-assurance",
+      "keywords": ["qa", "risk", "testing", "bug-analysis", "test-design"]
+    }
+  ]
+}
