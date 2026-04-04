@@ -14,7 +14,7 @@
       "name": "qa-toolkit",
       "source": "./plugins/qa-toolkit",
       "description": "A complete QA toolkit for analyzing user stories, generating test cases, assessing risk, and exploring live applications. Covers the full manual testing workflow from story refinement to test execution prioritization.",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "Murillo Welsi",
         "email": "murillo.welsi@gmail.com"
