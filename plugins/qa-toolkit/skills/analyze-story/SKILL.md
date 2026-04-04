@@ -44,8 +44,9 @@ This context drives the quality of every insight below.
 
 For each dimension, identify issues and assign a severity:
 - 🔴 **Critical** — blocks testing or development; story cannot proceed without resolution
-- 🟡 **Warning** — significant gap that will likely cause problems if not addressed
-- 🔵 **Suggestion** — improvement that would increase clarity or testability
+- 🟠 **High** — significant gap that will likely cause problems if not addressed
+- 🟡 **Medium** — improvement that would meaningfully increase clarity or testability
+- 🟢 **Low** — minor suggestion; low risk if left unaddressed
 
 ---
 
@@ -123,7 +124,7 @@ One paragraph: what the story promises, who benefits, and the key testing challe
 
 Group issues by dimension. For each issue:
 
-> 🔴/🟡/🔵 **[Severity] — [Dimension] — [Issue type]**
+> 🔴/🟠/🟡/🟢 **[Severity] — [Dimension] — [Issue type]**
 > `"quoted text from the story or AC that has the problem"`
 > **Why it matters:** explain the testing risk or downstream impact.
 > **Recommendation:** specific, actionable fix.
@@ -178,3 +179,14 @@ After presenting the report, ask:
 - **Team-friendly tone** — developers and PMs will read this too. Explain *why* each issue matters, not just *what* it is.
 - **ISTQB grounding** — recommendations should trace back to the principle that testable requirements prevent defects.
 - **Project-agnostic** — never assume field names, workflow states, or AC formats. Discover them from the ticket.
+
+---
+
+## What's next?
+
+After presenting the report, tailor the suggestion to the verdict:
+
+- ✅ or ⚠️ — the story has usable AC, so suggest:
+  > "Ready to turn this into test cases? → use `/generate-test-cases` to derive positive, negative, and edge case scenarios from the revised AC."
+
+- ❌ — the story is missing too much to generate meaningful tests, so don't suggest the next step. Instead, encourage the team to address the open questions first and re-run `/analyze-story` once the story is updated.
