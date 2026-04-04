@@ -1,0 +1,11 @@
+{
+  "name": "user-story-analyzer",
+  "description": "Analyzes Jira user stories and acceptance criteria for testability, ambiguity, and completeness. Aligned with ISTQB Agile Testing practices.",
+  "version": "1.0.0",
+  "author": {
+    "name": "Murillo Welsi",
+    "email": "murillo.welsi@gmail.com"
+  },
+  "keywords": ["qa", "testing", "jira", "user-stories", "acceptance-criteria", "istqb", "agile"],
+  "license": "MIT"
+}

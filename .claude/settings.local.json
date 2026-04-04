@@ -1,7 +1,14 @@
 {
   "permissions": {
     "allow": [
-      "Skill(update-config)"
+      "Bash(git checkout:*)",
+      "Bash(xargs rm:*)",
+      "Bash(find . -not -path './.git/*' -not -name '.git' -type f -delete)",
+      "Bash(find . -not -path './.git/*' -not -name '.git' -mindepth 1 -type d -empty -delete)",
+      "Bash(mkdir -p /Users/murillowelsi/Repos/claude-prompts-marketplace/.claude/skills/analyze-story)",
+      "Bash(cp /Users/murillowelsi/Repos/claude-prompts-marketplace/plugins/user-story-analyzer/skills/analyze-story/SKILL.md /Users/murillowelsi/Repos/claude-prompts-marketplace/.claude/skills/analyze-story/SKILL.md)",
+      "Bash(cp /Users/murillowelsi/Repos/claude-prompts-marketplace/.claude/skills/analyze-story/SKILL.md /Users/murillowelsi/Repos/claude-prompts-marketplace/plugins/user-story-analyzer/skills/analyze-story/SKILL.md)",
+      "Bash(rm -rf /Users/murillowelsi/Repos/claude-prompts-marketplace/.claude/skills)"
     ]
   }
 }
