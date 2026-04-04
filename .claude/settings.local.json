@@ -19,7 +19,11 @@
       "mcp__claude_ai_Atlassian_Rovo__addCommentToJiraIssue",
       "mcp__claude_ai_Atlassian_Rovo__createJiraIssue",
       "mcp__claude_ai_Atlassian_Rovo__getJiraProjectIssueTypesMetadata",
-      "Bash(cp:*)"
+      "Bash(cp:*)",
+      "Bash(xargs cat:*)",
+      "Bash(xargs -I{} ls {})",
+      "Bash(python3 -m json.tool)",
+      "Bash(xargs -I{} dirname {})"
     ]
   }
 }

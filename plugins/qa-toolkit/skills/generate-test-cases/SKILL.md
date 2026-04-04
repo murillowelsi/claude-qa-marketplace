@@ -1,5 +1,6 @@
 ---
 name: generate-test-cases
+version: 1.0.0
 description: >
   Generates structured test cases from a user story's acceptance criteria. Covers positive paths,
   negative paths, edge cases, and boundary conditions. Use this skill after analyzing a story with

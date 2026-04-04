@@ -1,5 +1,6 @@
 ---
 name: analyze-story
+version: 1.0.0
 description: >
   Analyzes a Jira user story using ISTQB-aligned quality checks — INVEST criteria, clarity,
   acceptance criteria quality, testability, and completeness — then produces a structured report
