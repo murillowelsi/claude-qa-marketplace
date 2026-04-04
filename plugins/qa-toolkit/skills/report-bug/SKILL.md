@@ -1,6 +1,5 @@
 ---
 name: report-bug
-version: 1.0.0
 description: >
   Structures a bug report from a failed test case and creates a Jira bug ticket with all the
   information a developer needs to reproduce and fix it. Use this skill whenever the user found

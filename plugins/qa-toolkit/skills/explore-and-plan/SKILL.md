@@ -1,6 +1,5 @@
 ---
 name: explore-and-plan
-version: 1.0.0
 description: >
   Explores a live web application using a real browser session, then produces a structured manual
   test plan covering all discovered features, user flows, and risk areas. Accepts a URL plus

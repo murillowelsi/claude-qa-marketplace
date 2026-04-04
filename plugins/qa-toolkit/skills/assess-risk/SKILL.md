@@ -1,6 +1,5 @@
 ---
 name: assess-risk
-version: 1.0.0
 description: >
   Assess risk and prioritise test cases using ISTQB risk-based testing. Scores each area by
   likelihood of failure and business impact to produce a ranked execution order. Use after

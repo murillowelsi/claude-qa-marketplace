@@ -27,7 +27,13 @@
       "mcp__playwright__browser_navigate",
       "mcp__playwright__browser_snapshot",
       "mcp__playwright__browser_click",
-      "mcp__playwright__browser_fill_form"
+      "mcp__playwright__browser_fill_form",
+      "Bash(mv playwright-project-init:*)",
+      "Bash(mv playwright-test-planner:*)",
+      "Bash(mv playwright-test-generator:*)",
+      "Bash(mv playwright-test-healer:*)",
+      "Bash(grep ^name::*)",
+      "Bash(python3:*)"
     ]
   }
 }
