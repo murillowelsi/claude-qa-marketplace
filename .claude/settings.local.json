@@ -13,7 +13,12 @@
       "Bash(xargs -I{} sh -c 'echo \"=== {} ===\" && cat {}')",
       "Bash(git add:*)",
       "Bash(git commit -m ':*)",
-      "Bash(git push:*)"
+      "Bash(git push:*)",
+      "mcp__claude_ai_Atlassian_Rovo__getAccessibleAtlassianResources",
+      "mcp__claude_ai_Atlassian_Rovo__getJiraIssue",
+      "mcp__claude_ai_Atlassian_Rovo__addCommentToJiraIssue",
+      "mcp__claude_ai_Atlassian_Rovo__createJiraIssue",
+      "mcp__claude_ai_Atlassian_Rovo__getJiraProjectIssueTypesMetadata"
     ]
   }
 }
