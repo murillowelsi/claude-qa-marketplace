@@ -67,7 +67,7 @@ Produce a markdown test plan in this structure:
 
 Then:
 - Call `planner_save_plan` with the complete markdown.
-- Save the file to `.claude/skills/playwright-test-planner/plans/<app-name>-test-plan.md`.
+- Save the file to `qa-output/test-plans/<app-name>-test-plan.md`.
 
 ### Step 4 — Jira ticket (optional)
 
@@ -128,7 +128,7 @@ Tell the user the branch that was created.
 
 ### Step 6 — Generate the tests
 
-Invoke the `playwright-test-generator` skill. Pass it the path to the saved test plan file (`.claude/skills/playwright-test-planner/plans/<app-name>-test-plan.md`) so it starts from the right plan without needing to re-explore the app.
+Invoke the `playwright-test-generator` skill. Pass it the path to the saved test plan file (`qa-output/test-plans/<app-name>-test-plan.md`) so it starts from the right plan without needing to re-explore the app.
 
 ---
 
