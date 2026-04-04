@@ -135,6 +135,21 @@ Based on the matrix, produce a recommended execution order:
 
 ---
 
+## Step 7 — Save output to file
+
+After presenting the risk matrix and execution order, save them as a markdown file.
+
+Save to: `qa-output/risk-assessments/<topic>-risk-<YYYY-MM-DD>.md`
+
+- Derive `<topic>` from the ticket key, story title, or feature name (e.g. `PROJ-123`, `checkout-flow`)
+- Use today's date for `<YYYY-MM-DD>`
+- Create the `qa-output/risk-assessments/` directory if it does not exist
+- The file content is the full risk matrix and recommended execution order exactly as presented to the user
+
+Tell the user where the file was saved: `"Risk assessment saved to qa-output/risk-assessments/<filename>.md"`
+
+---
+
 ## After Assessment
 
 Ask the user:

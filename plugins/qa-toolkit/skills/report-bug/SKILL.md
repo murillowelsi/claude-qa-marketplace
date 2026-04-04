@@ -103,7 +103,22 @@ Prefer: "Save button on the profile page does nothing when the email field is em
 
 ---
 
-## Step 4 — Create the Jira bug ticket
+## Step 4 — Save output to file
+
+After presenting the bug report, save it as a markdown file.
+
+Save to: `qa-output/bug-reports/<slug>-bug-<YYYY-MM-DD>.md`
+
+- Derive `<slug>` from the bug summary line: lowercase, spaces replaced with hyphens, max ~5 words (e.g. `save-button-no-response-empty-email`)
+- Use today's date for `<YYYY-MM-DD>`
+- Create the `qa-output/bug-reports/` directory if it does not exist
+- The file content is the full structured bug report markdown exactly as presented to the user
+
+Tell the user where the file was saved: `"Bug report saved to qa-output/bug-reports/<filename>.md"`
+
+---
+
+## Step 5 — Create the Jira bug ticket
 
 After presenting the report, move straight to Jira — the user is already in "log this" mode and
 asking again adds unnecessary friction.
@@ -124,7 +139,7 @@ asking again adds unnecessary friction.
 
 ---
 
-## Step 5 — Close the loop
+## Step 6 — Close the loop
 
 After the ticket is created, remind the user:
 
@@ -141,7 +156,7 @@ If the bug came from a prioritised test in `/assess-risk`, also note:
 If the user says they found more than one issue, don't bundle them. Work through them one at a time:
 
 1. Ask: "Let's handle them one at a time — which one should we start with?"
-2. Complete the full flow for the first bug (Steps 1–4) and create its Jira ticket
+2. Complete the full flow for the first bug (Steps 1–5) and create its Jira ticket
 3. Then move to the next: "Ready for the next one — what happened?"
 4. Repeat until all bugs are logged
 

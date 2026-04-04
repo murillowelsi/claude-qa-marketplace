@@ -158,7 +158,22 @@ State one of:
 
 ---
 
-## Step 5 — Post results or create subtasks (optional)
+## Step 5 — Save output to file
+
+After presenting the analysis report, save it as a markdown file.
+
+Save to: `qa-output/story-analysis/<ticket-key>-analysis-<YYYY-MM-DD>.md`
+
+- Use the Jira ticket key for `<ticket-key>` (e.g. `PROJ-123`); if no key was provided, use a short slug from the story title
+- Use today's date for `<YYYY-MM-DD>`
+- Create the `qa-output/story-analysis/` directory if it does not exist
+- The file content is the full analysis report markdown exactly as presented to the user
+
+Tell the user where the file was saved: `"Analysis saved to qa-output/story-analysis/<filename>.md"`
+
+---
+
+## Step 6 — Post results or create subtasks (optional)
 
 After presenting the report, ask:
 > "Would you like me to (1) post this analysis as a Jira comment, (2) create subtasks for the missing test scenarios, or (3) both?"

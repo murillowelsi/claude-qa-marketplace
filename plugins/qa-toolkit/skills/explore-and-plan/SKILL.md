@@ -157,7 +157,22 @@ Cover all of the following categories for each major feature area:
 
 ---
 
-## Step 7 — Post to Jira (optional)
+## Step 7 — Save output to file
+
+After presenting the test plan, save it as a markdown file so the team has a persistent, portable copy.
+
+Save to: `qa-output/test-plans/<app-name>-test-plan-<YYYY-MM-DD>.md`
+
+- Derive `<app-name>` from the page title or URL (e.g. `swag-labs`, `pulseflow-sign-in`)
+- Use today's date for `<YYYY-MM-DD>`
+- Create the `qa-output/test-plans/` directory if it does not exist
+- The file content is the full test plan markdown exactly as presented to the user
+
+Tell the user where the file was saved: `"Test plan saved to qa-output/test-plans/<filename>.md"`
+
+---
+
+## Step 8 — Post to Jira (optional)
 
 After presenting the test plan, ask:
 

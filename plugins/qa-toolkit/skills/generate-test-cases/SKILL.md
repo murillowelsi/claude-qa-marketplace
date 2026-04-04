@@ -87,7 +87,22 @@ Repeat for each criterion. At the end, add a summary count:
 
 ---
 
-## Step 5 — Coverage check
+## Step 5 — Save output to file
+
+After presenting the test cases, save them as a markdown file.
+
+Save to: `qa-output/test-cases/<ticket-key>-test-cases-<YYYY-MM-DD>.md`
+
+- Use the Jira ticket key for `<ticket-key>` (e.g. `PROJ-123`); if no key was provided, use a short slug from the story title
+- Use today's date for `<YYYY-MM-DD>`
+- Create the `qa-output/test-cases/` directory if it does not exist
+- The file content is the full test case list markdown exactly as presented to the user, including the summary count
+
+Tell the user where the file was saved: `"Test cases saved to qa-output/test-cases/<filename>.md"`
+
+---
+
+## Step 6 — Coverage check
 
 After generating, briefly review:
 - Is every AC criterion covered by at least one test?
