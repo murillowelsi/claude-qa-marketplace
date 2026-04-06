@@ -33,7 +33,8 @@
       "Bash(mv playwright-test-generator:*)",
       "Bash(mv playwright-test-healer:*)",
       "Bash(grep ^name::*)",
-      "Bash(python3:*)"
+      "Bash(python3:*)",
+      "mcp__playwright__browser_type"
     ]
   }
 }
