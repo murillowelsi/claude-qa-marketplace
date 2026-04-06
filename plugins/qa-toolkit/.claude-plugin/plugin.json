@@ -7,12 +7,5 @@
     "email": "murillo.welsi@gmail.com"
   },
   "keywords": ["qa", "testing", "manual-testing", "jira", "user-stories", "acceptance-criteria", "istqb", "agile", "risk-based-testing", "browser", "exploration", "test-plan", "orchestrator", "pipeline"],
-  "agents": [
-    {
-      "name": "qa-orchestrator",
-      "path": "./agents/qa-orchestrator/AGENT.md",
-      "description": "Autonomous end-to-end QA pipeline: analyze story → generate test cases → assess risk → generate Playwright tests."
-    }
-  ],
   "license": "MIT"
 }
