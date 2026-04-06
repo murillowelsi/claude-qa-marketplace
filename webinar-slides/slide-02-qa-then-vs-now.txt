@@ -1,0 +1,75 @@
+================================================================================
+  SLIDE 2: THE QA ROLE — 2024 vs 2026
+
+================================================================================
+
+  TWO YEARS AGO (2024)
+  --------------------
+  - QA engineers wrote test cases manually from requirements
+  - Test plans took days to produce from scratch
+  - Regression suites were brittle and expensive to maintain
+  - Bug reports required careful manual formatting
+  - Risk prioritization was based on gut feeling or tribal knowledge
+  - Automation engineers were a separate, specialized role
+  - Story analysis was done in refinement meetings, often too late
+  - Test coverage gaps were discovered AFTER bugs hit production
+
+  IN 2026
+  -------
+  - AI generates first-draft test cases in seconds from acceptance criteria
+  - A QA engineer can explore a live app and produce a full test plan
+    in one command — with a real browser session
+  - Risk scoring is automatic, ISTQB-aligned, and always documented
+  - Bug reports are structured, complete, and logged to Jira instantly
+  - Agents handle repetitive tasks; QA engineers focus on judgment calls
+  - Story quality is flagged BEFORE development starts
+  - The QA role shifted from "test executor" to "quality strategist"
+
+  THE SPEED PROBLEM — THE ELEPHANT IN THE ROOM
+  ---------------------------------------------
+  Developers are also using AI.
+
+  Claude, Copilot, Cursor, and AI pair programmers have made developers
+  significantly faster at writing code. A feature that took a week to build
+  in 2024 can now ship in two days.
+
+  That sounds great. Until QA is still spending three days writing test cases
+  for a feature that took two days to build.
+
+  The bottleneck has shifted. QA is now the slowest part of the pipeline —
+  not because QA engineers are slow, but because they haven't yet adopted
+  the same AI leverage that developers have.
+
+  If developers ship twice as fast and QA doesn't adapt,
+  one of two things happens:
+    1. Quality gates get skipped under time pressure
+    2. Bugs reach production that would have been caught
+
+  Both outcomes are unacceptable.
+
+  THE ANSWER:
+  -----------
+  QA engineers need to match the developer's AI leverage.
+  Not to compete — but to stay in sync.
+
+  When a developer uses AI to write a feature in hours,
+  a QA engineer should use AI to produce a test plan in minutes.
+
+  That's what these skills are built for.
+
+  THE SHIFT IN ONE SENTENCE:
+  --------------------------
+  QA engineers in 2026 direct AI agents —
+  they don't fill spreadsheets.
+
+  HOOK — BEFORE WE MOVE ON:
+  -------------------------
+  So if QA engineers are now directing agents...
+  what exactly are those agents made of?
+
+  What does it mean to give an agent a "skill"?
+  How do teams share and reuse these capabilities at scale?
+
+  That's what we're going to unpack next.
+
+================================================================================

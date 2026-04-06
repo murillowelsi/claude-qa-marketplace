@@ -1,0 +1,53 @@
+================================================================================
+  SLIDE 3B: THE 6-COMPONENT PROMPT STRUCTURE (ISTQB CT-GenAI)
+
+================================================================================
+
+  ISTQB defines every well-formed prompt as having six components.
+  These are not just theory — they are the foundation of every skill
+  in the QA Toolkit.
+
+  THE 6 COMPONENTS
+  ----------------
+  1. ROLE         — Who the AI should behave as
+  2. CONTEXT      — Background the AI needs to understand the task
+  3. INSTRUCTION  — What the AI must do, step by step
+  4. INPUT DATA   — The artifact the AI will work on
+  5. CONSTRAINTS  — Boundaries, format rules, what to avoid
+  6. OUTPUT FORMAT — How the response should be structured
+
+  MAPPED TO /analyze-story
+  ------------------------
+
+  ROLE        → "You are a senior QA engineer applying ISTQB Agile
+                 Testing principles."
+
+  CONTEXT     → "Your job is to read a Jira user story and evaluate it
+                 across five structured quality dimensions."
+
+  INSTRUCTION → Six steps: fetch ticket → understand the story →
+                evaluate five dimensions → produce report →
+                save to file → optionally post to Jira.
+
+  INPUT DATA  → The Jira ticket key provided by the user (e.g. PROJ-123),
+                fetched live via the Jira MCP tool.
+
+  CONSTRAINTS → "Precision over volume — three sharp insights beat ten
+                 generic ones. Never assume field names or AC formats."
+
+  OUTPUT FORMAT → Structured markdown report: Overview → Quality Issues
+                  (severity-rated by dimension) → Improved AC → Verdict.
+
+  WHY THIS MATTERS
+  ----------------
+  The gap between a prompt that works once and a skill that works every
+  time is in how completely these six components are specified.
+
+  When the model knows its role, has the right context, follows clear
+  instructions, receives real input data, operates within defined
+  constraints, and produces a predictable output format —
+  hallucinations drop and results are reviewable.
+
+  That is what makes a skill production-grade.
+
+================================================================================

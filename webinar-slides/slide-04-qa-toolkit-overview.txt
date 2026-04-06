@@ -1,0 +1,40 @@
+================================================================================
+  SLIDE 4: INTRODUCING THE QA TOOLKIT PLUGIN
+
+================================================================================
+
+  The QA Toolkit is a Plugin for Claude Code containing five Skills
+  that cover the entire QA workflow — from story review to bug logging.
+
+  PLUGIN: qa-toolkit
+  ------------------
+
+  SKILL 1: /analyze-story
+    Analyzes a Jira user story using ISTQB quality checks.
+    Evaluates INVEST criteria, clarity, acceptance criteria quality,
+    testability, and completeness.
+    Flags issues with severity ratings. Rewrites weak AC.
+    Verdict: Ready / Needs Refinement / Not Ready.
+
+  SKILL 2: /generate-test-cases
+    Derives structured test cases from acceptance criteria.
+    Covers positive paths, negative paths, edge cases,
+    and boundary conditions.
+    Output: ready-to-execute test cases saved as a markdown file.
+
+  SKILL 3: /assess-risk
+    Scores each test area by Likelihood x Impact (ISTQB risk model).
+    Produces a ranked execution order across four priority tiers:
+    Critical, High, Medium, Low.
+
+  SKILL 4: /explore-and-plan
+    Opens a real browser session, navigates a live web application,
+    and produces a complete manual test plan covering all discovered
+    features, flows, and risk areas.
+
+  SKILL 5: /report-bug
+    Structures a failed test into a complete bug report.
+    Classifies severity and priority.
+    Creates a Jira bug ticket automatically with all context attached.
+
+================================================================================

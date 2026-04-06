@@ -1,0 +1,56 @@
+================================================================================
+  SLIDE 10: CLOSING — THE QA ENGINEER OF 2026
+
+================================================================================
+
+  WHAT HASN'T CHANGED
+  --------------------
+  - Critical thinking about what can go wrong
+  - Judgment about risk and coverage tradeoffs
+  - Domain knowledge and understanding of user behavior
+  - Accountability for release quality
+  - Advocacy for the user experience
+
+  WHAT HAS CHANGED
+  ----------------
+  - Repetitive documentation is handled by AI agents
+  - Test plans are generated, not written from scratch
+  - Bug reports are structured and complete by default
+  - Risk prioritization is transparent and ISTQB-aligned
+  - Story quality is caught before development, not after
+
+  THE NEW QA SUPERPOWER
+  ---------------------
+  The best QA engineers in 2026 are not the ones who type fastest.
+  They are the ones who know which questions to ask,
+  which risks to escalate,
+  and how to direct an AI agent to do the repetitive work
+  while they focus on what matters.
+
+  THE OUTCOME
+  -----------
+  Teams using AI-assisted QA workflows report:
+    - 50%+ reduction in manual test creation time
+    - Fewer defects reaching production
+    - Faster sprint cycles with better story quality
+    - QA engineers who are more engaged, less burned out
+
+  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+
+  TRY IT THIS SPRINT
+  ------------------
+  Pick one story. Run /analyze-story.
+  See what the AI catches that you might have missed.
+
+  Then run /generate-test-cases and compare with what you would have written.
+
+  That delta is your starting point.
+
+  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+
+  Thank you.
+  Questions? Find us at 25Friday.
+
+  QA Toolkit Plugin — available on the 25Friday Marketplace
+
+================================================================================

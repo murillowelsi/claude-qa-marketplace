@@ -1,0 +1,51 @@
+================================================================================
+  SLIDE 8: THE QA WORKFLOW — Before vs After
+
+================================================================================
+
+  TRADITIONAL WORKFLOW (2024)                 AI-ASSISTED WORKFLOW (2026)
+  ----------------------------                ---------------------------
+
+  Sprint Planning                             Sprint Planning
+  └─ Story arrives with vague AC              └─ /analyze-story PROJ-123
+     QA notices gaps after dev starts            Gaps caught BEFORE dev starts
+     Clarification takes 1-2 days               Revised AC ready in minutes
+
+  Test Planning Phase                         Test Planning Phase
+  └─ QA writes test plan manually             └─ /explore-and-plan <url>
+     2-3 days for a medium feature               Browser explores live app
+     Coverage depends on QA experience          Full plan generated in minutes
+                                                Saved as markdown + Jira task
+
+  Test Case Writing                           Test Case Writing
+  └─ Manual derivation from AC                └─ /generate-test-cases PROJ-123
+     Positive paths covered, edges missed        All four categories generated
+     Stored in spreadsheets or test tools        Positive, negative, edge cases,
+                                                non-functional — all covered
+
+  Test Prioritization                         Test Prioritization
+  └─ Based on experience or gut feeling       └─ /assess-risk
+     No documentation of rationale               ISTQB Likelihood x Impact matrix
+     Same tests run every cycle                  Ranked execution order documented
+                                                Phase 1-4 priority tiers
+
+  Bug Reporting                               Bug Reporting
+  └─ QA fills Jira form manually              └─ /report-bug
+     Missing fields, vague summaries             Structured report in seconds
+     Developer asks for more info               All fields complete
+     Fix cycle is slow                          Jira ticket auto-created and linked
+
+  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+
+  TIME SAVED PER SPRINT (typical medium-complexity story):
+  --------------------------------------------------------
+  Test plan writing:       -70%
+  Test case creation:      -50%
+  Bug report writing:      -60%
+  Risk prioritization:     -80%
+  Story gap analysis:      -65%
+
+  Net result: QA engineers spend less time on documentation
+  and more time on exploratory testing, where human judgment matters most.
+
+================================================================================

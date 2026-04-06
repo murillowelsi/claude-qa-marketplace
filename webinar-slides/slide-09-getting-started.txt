@@ -1,0 +1,48 @@
+================================================================================
+  SLIDE 9: HOW TO GET STARTED
+
+================================================================================
+
+  STEP 1 — Install Claude Code
+  ----------------------------
+  Claude Code is the AI CLI that runs agents and skills directly in your
+  terminal, VS Code, JetBrains, or the Claude desktop app.
+
+  Install: npm install -g @anthropic-ai/claude-code
+
+  STEP 2 — Install the QA Toolkit Plugin
+  ---------------------------------------
+  Browse the Marketplace and install the QA Toolkit plugin.
+  This adds all five skills to your Claude Code environment.
+
+  The plugin connects Claude to:
+    - Your browser (via Playwright MCP) for live app exploration
+    - Jira (via Atlassian MCP) for story analysis and ticket creation
+    - Your local filesystem for saving all QA outputs as markdown
+
+  STEP 3 — Start with a story in your backlog
+  --------------------------------------------
+  Pick a ticket going into the next sprint.
+
+  Run this sequence:
+    /analyze-story PROJ-XXX       <- check if the story is testable
+    /generate-test-cases PROJ-XXX <- generate the full test set
+    /assess-risk                  <- prioritize what to test first
+    /explore-and-plan <url>       <- explore the app before testing
+    /report-bug                   <- log any defects you find
+
+  STEP 4 — Save and share
+  -----------------------
+  Every skill saves its output as a markdown file in qa-output/.
+  Your entire QA paper trail is version-controlled alongside the code.
+  No spreadsheets. No manual Jira formatting. No lost context.
+
+  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -  -
+
+  WHAT YOU NEED:
+  - Claude Code (CLI or IDE extension)
+  - An Anthropic API key
+  - Jira access (for Atlassian MCP integration)
+  - A browser (Playwright MCP handles the rest)
+
+================================================================================
