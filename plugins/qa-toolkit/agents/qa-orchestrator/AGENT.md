@@ -1,14 +1,16 @@
 ---
 name: qa-orchestrator
 description: >
-  Autonomous QA pipeline that runs the full quality workflow end-to-end: story analysis,
-  test case generation, risk assessment, and optional Playwright automation — all chained
-  without user hand-holding. Use this skill whenever the user says "full QA", "run the full
-  pipeline", "QA for PROJ-123", "end-to-end QA", "orchestrate QA", "from ticket to tests",
-  or any variation of wanting the complete QA workflow for a Jira ticket in one shot.
-  Prefer this over individual skills (analyze-story, generate-test-cases, assess-risk)
-  whenever the request implies running multiple QA phases together.
-type: skill
+  Autonomous QA pipeline agent that runs the full quality workflow end-to-end without user
+  hand-holding between steps. Given a Jira ticket key (or raw acceptance criteria), it:
+  (1) analyzes story quality, (2) generates test cases, (3) assesses risk and produces a
+  prioritized execution order, and (4) optionally generates Playwright automation tests.
+  Use this agent when the user wants to go from a ticket to a ready-to-execute test suite
+  in one shot. Trigger on phrases like "run the full QA pipeline", "orchestrate QA for",
+  "end-to-end QA for this story", "automate the whole QA workflow", "full QA for PROJ-123",
+  or "from ticket to tests".
+type: agent
+color: purple
 ---
 
 # QA Orchestrator Agent
